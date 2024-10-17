@@ -18,8 +18,9 @@ function Board({ xIsNext, squares, onPlay }) {
       nextSquares[i] = "A";
     } else {
       nextSquares[i] = "B";
-      console.log(nextSquares);
     }
+    const a = 10;
+    console.log(a);
     onPlay(nextSquares);
   }
 
